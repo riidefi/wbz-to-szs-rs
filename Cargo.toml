@@ -13,7 +13,7 @@ log = "0.4.19"
 ux = "0.1.5"
 
 fern = { version = "0.6.2", features = ["colored"], optional = true }
-bzip2 = { version = "0.4.4", features = ["static"] }
+bzip2 = { version = "0.6.0", features = ["static"] }
 
 [features]
 bin = ["fern"]
